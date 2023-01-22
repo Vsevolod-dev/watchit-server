@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const db = require('./db.json')
 const cors = require('cors')
-const PORT = 3002
+const PORT = 443
 
 app.use(cors())
 
